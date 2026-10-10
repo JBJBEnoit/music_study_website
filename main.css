@@ -626,3 +626,92 @@ footer {
 }
 
 
+
+
+/* Songs by Bruce page */
+.songsWrap {
+    background: linear-gradient(180deg, #fff3b0 0%, #c8f2c2 50%, #c9ecff 100%);
+}
+
+.songPageContent {
+    width: 90%;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.songPageContent h2.pgTitle {
+    font: 2.6rem/1.1 "Candal", serif;
+    color: #1f6fd1;
+    text-align: center;
+    text-shadow: 3px 3px 0 #fff, 5px 5px 0 #ffd23f;
+    margin: 1rem 0 0;
+}
+
+.songPageContent .contactSec {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1.5rem 1.8rem 1.8rem;
+    border: 4px solid #fff;
+    border-radius: 2em;
+    box-shadow: 0 0.4em 0 rgba(41, 87, 87, 0.25);
+    overflow: hidden;
+}
+
+.songPageContent .contactSec:nth-of-type(1) { background: #fff; transform: rotate(-0.8deg); }
+.songPageContent .contactSec:nth-of-type(2) { background: #e3f6ff; transform: rotate(0.6deg); }
+.songPageContent .contactSec:nth-of-type(3) { background: #fff0c2; transform: rotate(-0.6deg); }
+.songPageContent .contactSec:nth-of-type(4) { background: #ffe0ee; transform: rotate(0.8deg); }
+
+.songPageContent .contactSec h2 {
+    font-family: "Candal", serif;
+    font-weight: normal;
+    color: #295757;
+}
+
+.songPageContent .contactSec h2::before {
+    content: "\266A\00a0";
+    color: #e0457b;
+}
+
+.songPageContent .contactSec img {
+    float: none;
+    display: block;
+    width: 100%;
+    max-height: 16rem;
+    object-fit: cover;
+    margin: 0 0 1rem;
+    border-radius: 1.5rem;
+}
+
+.songPageContent .contactSec p,
+.songPageContent .contactSec li {
+    line-height: 1.6;
+}
+
+.songSteps li {
+    margin-bottom: 0.8rem;
+}
+
+.songPrice {
+    display: inline-block;
+    padding: 0.4rem 1.2rem;
+    background: #ffd23f;
+    border-radius: 2em;
+    transform: rotate(-2deg);
+}
+
+.songBtn {
+    background-color: #e0457b;
+    font-weight: bold;
+    box-shadow: 0 0.2em 0 #a82d58;
+}
+
+@media screen and (min-width: 800px) {
+    .songsWrap {
+        width: 60%;
+    }
+    .songPageContent {
+        width: 85%;
+    }
+}
