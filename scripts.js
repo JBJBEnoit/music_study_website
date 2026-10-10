@@ -33,6 +33,7 @@ window.onload = ()=>{
                         <ul id='navList'>
                         <li class='navItem'><a href=index.html>home</a></li>
                         <li class='navItem'><a href=lessons.html>lessons</a></li>
+                        <li class='navItem'><a href=songs.html>songs</a></li>
                         <li class='navItem'><a href=about.html>about</a></li>
                         <li class='navItem'><a href=contact.html>contact</a></li>
                         </ul>`;

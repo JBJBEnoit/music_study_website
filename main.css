@@ -48,6 +48,50 @@ h2.pgTitle {
     margin-bottom: 1vh;
 }
 
+.songPageContent img {
+    width: 100%;
+    border-radius: 1.5em;
+}
+
+.songPrice {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #295757;
+}
+
+.songSteps {
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+.newBanner {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.7rem 0;
+    border-radius: 1.5em;
+    border: 3px dashed #295757;
+    background-color: #fff8e1;
+}
+
+.newTag {
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    background-color: #c0392b;
+    color: white;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+.songBtn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: #295757;
+    color: white;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
 header {   
     margin-top: 0%;
     margin-bottom: 1rem;
@@ -350,7 +394,7 @@ footer {
     .pageContent {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: auto;
         width: 90%;
         row-gap: 0.7rem;
     }
