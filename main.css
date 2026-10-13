@@ -689,6 +689,11 @@ footer {
     line-height: 1.6;
 }
 
+.songPageContent audio {
+    display: block;
+    width: 100%;
+}
+
 .songSteps li {
     margin-bottom: 0.8rem;
 }
